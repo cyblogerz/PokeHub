@@ -1,10 +1,12 @@
 import PokeList from "./components/PokeList/PokeList"
 import SearchBar from "./components/SearchBar/SearchBar"
+import "./App.css"
+
 
 
 function App() {
   return (
-  <div>
+  <div className="App">
   <p>Pokehub</p>
 
     <PokeList />
