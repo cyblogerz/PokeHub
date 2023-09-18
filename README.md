@@ -17,11 +17,11 @@ Welcome to PokeHub, your one-stop destination for all things Pokémon! This web 
 
 ## Getting Started
 
-1. Clone this repository: `git clone https://github.com/your-username/pokehub.git`
+1. Clone this repository: `git clone https://github.com/cyblogerz/pokehub.git`
 2. Navigate to the project directory: `cd pokehub`
 3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
-5. Open your browser and visit: `http://localhost:3000`
+4. Start the development server: `npm run dev`
+
 
 ## Usage
 
@@ -30,7 +30,7 @@ Welcome to PokeHub, your one-stop destination for all things Pokémon! This web 
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 1](![Alt text](image.png))
 ![Screenshot 2](screenshots/screenshot2.png)
 
 ## Contributing
@@ -43,13 +43,11 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Push to your branch: `git push origin feature-name`
 5. Submit a pull request.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
 - Thanks to the [PokeAPI](https://pokeapi.co/) for providing the Pokémon data.
-- Special thanks to the Pokémon community for their support and enthusiasm.
+
 
 Happy Pokémon exploring!
