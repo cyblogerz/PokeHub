@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import Loading from '../components/UI/Loading';
 
 function PokemonDetails() {
   const { pokemonid } = useParams();
@@ -15,7 +16,7 @@ function PokemonDetails() {
   }, [pokemonid]);
 
   if (!pokemonData) {
-    return <div>Loading...</div>;
+    return <Loading />;
   }
 
   // Extract relevant details from 'pokemonData'
