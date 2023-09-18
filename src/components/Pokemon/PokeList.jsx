@@ -1,0 +1,38 @@
+import PokeCard from "./PokeCard";
+import { useEffect, useRef, useState } from "react";
+
+function PokeList() {
+    const [pokemonList,setPokemonList] = useState([]);
+    const [offset,setOffset] = useState(0);
+    const apiurl = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=12`;
+
+
+    useEffect(()=>{
+        fetch(apiurl)
+        .then((res) => res.json())
+        .then((data) => setPokemonList(data.results))
+    },[apiurl]);
+  return (
+    
+    <div className="grid grid-cols-1 md:grid-cols-4">
+      {pokemonList.map((pokemon, index) => (
+        <PokeCard
+          key={index}
+          pokemonName={pokemon.name}
+          pokemonImgUrl={`https://img.pokemondb.net/artwork/large/${pokemon.name}.jpg`}
+        />
+      ))}
+
+      <div className="fixed bottom-0 flex flex-row gap-2 md:bottom-[-10] right-4 mb-4 mr-4">
+        <button className="h-11 px-8 rounded-md" onClick={() =>{}}>
+          -
+        </button>
+        <button className="h-11 px-8 rounded-md" onClick={() =>{}}>
+          +
+        </button>
+      </div>
+    </div>
+  );
+}
+
+export default PokeList;
