@@ -6,7 +6,7 @@ import SearchBar from './SearchBar';
 
 const NavBar = () => {
   return (
-    <nav className="p-5 bg-white shadow flex items-center justify-between">
+    <nav className="px-10 w-full h-14  fixed bg-white shadow flex items-center justify-between ">
         <div>
         <span className="text-2xl  cursor-pointer">
         <img src={Logo} alt="logo" className="h-7 inline mr-4" />

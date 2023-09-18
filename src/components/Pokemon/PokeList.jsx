@@ -22,8 +22,8 @@ function PokeList() {
         .then((data) => setPokemonList(data.results))
     },[apiurl]);
   return (
-    
-    <div className="mx-auto py-4 px-10 container grid grid-cols-1 md:grid-cols-4 gap-4">
+    <>
+    <div className="mx-auto pb-8 relative top-20 px-10 container grid grid-cols-1 md:grid-cols-4 gap-4 ">
       {pokemonList.map((pokemon, index) => (
         <PokeCard
           key={index}
@@ -31,8 +31,8 @@ function PokeList() {
           pokemonImgUrl={`https://img.pokemondb.net/artwork/large/${pokemon.name}.jpg`}
         />
       ))}
-
-      <div className="fixed bottom-0 px-2 flex flex-row gap-2 md:bottom-[-10] right-4 mb-4 mr-4">
+    </div>
+    <div className="fixed bottom-0 px-2 flex flex-row gap-2 md:bottom-[-10] right-4 mb-4 mr-4">
         <button className="h-11 px-8 rounded-md bg-black text-white" onClick={dec}>
           -
         </button>
@@ -40,7 +40,7 @@ function PokeList() {
           +
         </button>
       </div>
-    </div>
+    </>
   );
 }
 
