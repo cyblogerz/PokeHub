@@ -1,4 +1,4 @@
-import Logo from '../Icons/Logo.svg';
+import Logo from '../../assets/Icons/Logo.svg';
 import { BsGithub } from 'react-icons/bs';
 import { AiOutlineTwitter} from 'react-icons/ai';
 import SearchBar from './SearchBar';
