@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <nav className="p-5 bg-white shadow flex items-center justify-between">
         <div>
-        <span className="text-2xl font-[Poppins] cursor-pointer">
+        <span className="text-2xl  cursor-pointer">
         <img src={Logo} alt="logo" className="h-7 inline mr-4" />
             PokeHub
         </span>
