@@ -1,17 +1,11 @@
-import PokeList from "./components/PokeList/PokeList"
-import SearchBar from "./components/SearchBar/SearchBar"
-import "./App.css"
+import './Index.css'
+import NavBar from './components/UI/NavBar'
 
-
-
-function App() {
+export default function App() {
   return (
-  <div className="App">
-  <p>Pokehub</p>
-
-    <PokeList />
-  </div>
+    <div>
+      <NavBar />
+    </div>
+   
   )
 }
-
-export default App
