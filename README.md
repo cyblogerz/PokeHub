@@ -1,6 +1,8 @@
-# PokeHub
+# PokéHub
 
-Welcome to PokeHub, your one-stop destination for all things Pokémon! This web application allows you to explore and learn about your favorite Pokémon, their abilities, types, and more.
+🚧 Under development 🚧 
+
+Welcome to PokéHub, your one-stop destination for all things Pokémon! This web application allows you to explore and learn about your favorite Pokémon, their abilities, types, and more.
 
 ## Features
 
