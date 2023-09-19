@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import Loading from '../components/UI/Loading';
 import PokeDetailCard from '../components/Pokemon/PokeDetailCard';
 import { useNavigate } from 'react-router-dom';
+import PokemonInfo from '../components/Pokemon/PokemonInfo';
 
 function PokemonDetails() {
   const { pokemonid } = useParams();
@@ -29,9 +30,9 @@ function PokemonDetails() {
 
   return (
     <div>
-    <div className='md:flex md:justify-center pt-20 '>
+    <div className='md:flex md:justify-center md:content-center pt-20 '>
     <PokeDetailCard name={name} height={height} weight={weight} abilities={abilities} types={types} stats={stats}/>
-    
+    {/* <PokemonInfo name={name}/> */}
     
         
     
