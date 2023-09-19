@@ -1,6 +1,6 @@
 import React from 'react'
 import { StatsBar } from '../UI/Stats';
-import NumAnim from '../UI/numAnim';
+import NumAnim from '../UI/numAnim.jsx';
 const PokeDetailCard = (props) => {
     const findStat = (statName) => props.stats.find((stat) => stat.stat.name === statName)?.base_stat;
   return (
