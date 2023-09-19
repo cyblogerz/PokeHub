@@ -32,7 +32,7 @@ function PokemonDetails() {
     <div>
     <div className='md:flex md:justify-center md:content-center pt-20 '>
     <PokeDetailCard name={name} height={height} weight={weight} abilities={abilities} types={types} stats={stats}/>
-    {/* <PokemonInfo name={name}/> */}
+    
     
         
     
