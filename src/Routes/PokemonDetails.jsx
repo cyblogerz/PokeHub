@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import Loading from '../components/UI/Loading';
 import PokeDetailCard from '../components/Pokemon/PokeDetailCard';
 import { useNavigate } from 'react-router-dom';
-import PokemonInfo from '../components/Pokemon/PokemonInfo';
+
 
 function PokemonDetails() {
   const { pokemonid } = useParams();
