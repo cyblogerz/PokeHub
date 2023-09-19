@@ -17,12 +17,6 @@ Welcome to PokéHub, your one-stop destination for all things Pokémon! This web
 - PokeAPI: Pokémon data source
 - Tailwind CSS: Styling and UI components
 
-## Getting Started
-
-1. Clone this repository: `git clone https://github.com/cyblogerz/pokehub.git`
-2. Navigate to the project directory: `cd pokehub`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm run dev`
 
 
 ## Usage
@@ -44,12 +38,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 3. Make your changes and commit them: `git commit -m 'Add some feature'`
 4. Push to your branch: `git push origin feature-name`
 5. Submit a pull request.
-
-
-
-## Acknowledgments
-
-- Thanks to the [PokeAPI](https://pokeapi.co/) for providing the Pokémon data.
-
-
-Happy Pokémon exploring!
