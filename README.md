@@ -33,7 +33,7 @@ Welcome to PokéHub, your one-stop destination for all things Pokémon! This web
 ## Screenshots
 
 ![Screenshot 1](![Alt text](image.png))
-![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 2](![Alt text](image-1.png))
 
 ## Contributing
 
