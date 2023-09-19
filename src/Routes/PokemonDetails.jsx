@@ -32,7 +32,6 @@ function PokemonDetails() {
     <div className='md:flex md:justify-center pt-20 '>
     <PokeDetailCard name={name} height={height} weight={weight} abilities={abilities} types={types} stats={stats}/>
     
-    <PokeDetailCard name={name} height={height} weight={weight} abilities={abilities} types={types} stats={stats}/>
     
         
     
