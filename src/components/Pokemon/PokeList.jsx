@@ -1,3 +1,4 @@
+import FabButton from "../UI/Fab";
 import PokeCard from "./PokeCard";
 import { useEffect, useRef, useState } from "react";
 
@@ -40,6 +41,7 @@ function PokeList() {
           +
         </button>
       </div>
+      <FabButton />
     </>
   );
 }
