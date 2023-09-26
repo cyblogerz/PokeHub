@@ -10,6 +10,7 @@ import {
 import PokemonDetails from './Routes/PokemonDetails.jsx';
 import Root from './Routes/Root.jsx';
 import PokeList from './components/Pokemon/PokeList.jsx';
+import MemoryGame from './components/MemoryGame/MemoryGame';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,9 @@ const router = createBrowserRouter([
       {
         path:"pokemon/:pokemonid",
         element: <PokemonDetails />
+      },{
+        path:"/game",
+        element: <MemoryGame />
       }
     ]
   },

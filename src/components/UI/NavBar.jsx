@@ -1,6 +1,9 @@
 import Logo from '../../assets/Icons/Logo.svg';
 import { BsGithub } from 'react-icons/bs';
-import { AiTwotoneHeart} from 'react-icons/ai';
+
+import { Link } from "react-router-dom";
+
+
 import {TbDeviceGamepad2} from 'react-icons/tb'
 import SearchBar from './SearchBar';
 
@@ -18,10 +21,10 @@ const NavBar = () => {
             <li className='mx-2'>
                 <a href="#"><BsGithub className='w-7 h-7'/></a>
             </li>
-            
+
             
             <li className='mx-2 mr-4'>
-                <a href="#"><TbDeviceGamepad2 className='w-7 h-7'/></a>
+                <Link to="/game"><TbDeviceGamepad2 className='w-7 h-7'/></Link>
             </li>
             <li> 
                 <SearchBar />
