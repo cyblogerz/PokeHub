@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import MemoryCard from './MemoryCard';
 
 function shuffleArray(array) {
     const newArray = [...array];
@@ -27,12 +28,10 @@ const MemoryGame = () => {
   return (
     <div className="bg-[url(pokemon-bg.png)] bg-cover h-screen pt-20 flex flex-col justify-center items-center">
     <h1 className="text-xl mb-10 ">Score : 0 &nbsp; High Score : 🏆5</h1>
-<div className="grid grid-cols-4  md:flex md:flex-row gap-4 h-full">
+<div className="grid grid-cols-4  md:flex md:flex-row gap-4 h-full md:w-[90%]">
 {pokemons.map((pokemon)=>{
     return(
-    <button className="" onClick={btnClick}>
-        <img src={`https://img.pokemondb.net/artwork/large/${pokemon.name}.jpg`} alt="" />
-    </button>
+    <MemoryCard name={pokemon.name} onClick={btnClick}/>
     )
 
 })}
